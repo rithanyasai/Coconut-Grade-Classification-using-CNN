@@ -9,7 +9,7 @@ IMAGES AT THE BEGINNING:<br />
   Grade 2 = 250<br />
   Grade 3 = 250<br />
   
-We would need more images for Model to train better for which we Augument them and add it to Dataset, Augumenting is basically introducing noise, such as flipping, blurring the images for it to predict properly despite the changes.
+We would need more images for Model to train better for which we Augument them and add it to Dataset, Augumenting is the process of increasing the number of images, by flipping and blurring the images for it to learn and predict properly despite the changes.
 <br />
 As we add them to our dataset, number of images increase
 IMAGES AT THE BEGINNING:<br />
@@ -18,9 +18,12 @@ IMAGES AT THE BEGINNING:<br />
   Grade 3 = 832<br />
   
   Our CNN model architecture consists of 5 convulutional and 5 pooling layers, output layer has 3 nodes. <br />
+  the activation function used between CNN layers are relu and softmax in ANN. 
+  <br />
+  loss function used is categorical_crossentropy and optimizer is Adam. 
   once we fit the model and train them, the model is ready! <br />
   Kindly look into my Notebook, open to suggestions and advices. <br />
-  Model's accuracy is about 86.63%
+  Model's accuracy is about 86.63% (after running for 10epochs)
 
   
  
